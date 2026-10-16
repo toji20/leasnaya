@@ -1,0 +1,136 @@
+[
+  {
+    "fields": [
+      {
+        "name": "eyebrow",
+        "type": "string",
+        "title": "Надпись над заголовком"
+      },
+      {
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "title",
+        "type": "array",
+        "title": "Главный заголовок (каждая строка — отдельный пункт)"
+      },
+      {
+        "name": "aboutTitle",
+        "type": "string",
+        "title": "Блок «О месте»: заголовок"
+      },
+      {
+        "name": "aboutAccent",
+        "type": "string",
+        "title": "Блок «О месте»: выделенное слово"
+      },
+      {
+        "name": "aboutText",
+        "type": "text",
+        "title": "Блок «О месте»: текст"
+      },
+      {
+        "of": [
+          {
+            "fields": [
+              {
+                "name": "t",
+                "type": "string",
+                "title": "Название"
+              },
+              {
+                "name": "d",
+                "type": "text",
+                "title": "Описание"
+              },
+              {
+                "name": "h",
+                "type": "string",
+                "title": "Длительность (например, 3 часа)"
+              },
+              {
+                "name": "p",
+                "type": "string",
+                "title": "Цена (например, 6 000 ₽)"
+              }
+            ],
+            "type": "object"
+          }
+        ],
+        "name": "services",
+        "type": "array",
+        "title": "Услуги"
+      },
+      {
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "features",
+        "type": "array",
+        "title": "Особенности (плашки)"
+      },
+      {
+        "of": [
+          {
+            "fields": [
+              {
+                "name": "a",
+                "type": "string",
+                "title": "Имя автора"
+              },
+              {
+                "name": "t",
+                "type": "text",
+                "title": "Текст отзыва"
+              }
+            ],
+            "type": "object"
+          }
+        ],
+        "name": "reviews",
+        "type": "array",
+        "title": "Отзывы"
+      },
+      {
+        "of": [
+          {
+            "options": {
+              "hotspot": true
+            },
+            "type": "image"
+          }
+        ],
+        "name": "photos",
+        "type": "array",
+        "title": "Фото (первое — фон на главном экране)"
+      },
+      {
+        "name": "phone",
+        "type": "string",
+        "title": "Телефон"
+      },
+      {
+        "name": "telegram",
+        "type": "string",
+        "title": "Ссылка на Telegram"
+      },
+      {
+        "name": "address",
+        "type": "string",
+        "title": "Адрес"
+      },
+      {
+        "name": "hours",
+        "type": "string",
+        "title": "Часы работы"
+      }
+    ],
+    "name": "landing",
+    "type": "document",
+    "title": "Главная страница"
+  }
+]
